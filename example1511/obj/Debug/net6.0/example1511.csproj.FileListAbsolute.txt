@@ -4,3 +4,13 @@ C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.Generate
 C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.AssemblyInfoInputs.cache
 C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.AssemblyInfo.cs
 C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.csproj.CoreCompileInputs.cache
+C:\Users\Ljubov\Desktop\HW1511\example1511\bin\Debug\net6.0\example1511.exe
+C:\Users\Ljubov\Desktop\HW1511\example1511\bin\Debug\net6.0\example1511.deps.json
+C:\Users\Ljubov\Desktop\HW1511\example1511\bin\Debug\net6.0\example1511.runtimeconfig.json
+C:\Users\Ljubov\Desktop\HW1511\example1511\bin\Debug\net6.0\example1511.dll
+C:\Users\Ljubov\Desktop\HW1511\example1511\bin\Debug\net6.0\ref\example1511.dll
+C:\Users\Ljubov\Desktop\HW1511\example1511\bin\Debug\net6.0\example1511.pdb
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.dll
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\ref\example1511.dll
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.pdb
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.genruntimeconfig.cache

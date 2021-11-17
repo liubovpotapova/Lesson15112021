@@ -29,70 +29,74 @@
 // System.Console.WriteLine("сумма отрицательных = "+sumPol);
 
 // 34. Написать программу замены элементов массива на противоположные
-// int [] arrayThirtyFour= new int[10];
-// int i = 0;
-// for (i=0; i<10; i++)
-// {
-//     arrayThirtyFour[i]= new Random().Next(-10,10);
-//     System.Console.Write(arrayThirtyFour[i]+" ");
-// }
+System.Console.WriteLine("Задача 34: Написать программу замены элементов массива на противоположные");
 
-// i=0;
-// System.Console.WriteLine(" ");
-// for (i=0; i<10; i++)
-// {
-//     if (arrayThirtyFour[i]>0)
-//     {
-//         System.Console.Write((arrayThirtyFour[i])-(2*arrayThirtyFour[i])+" ");
-//     }
-//     if (arrayThirtyFour[i]<0)
-//     {
-//         System.Console.Write(Math.Abs(arrayThirtyFour[i])+" ");
+int[] arrayThirtyFour = new int[10];
+int i = 0;
+for (i = 0; i < 10; i++)
+{
+    arrayThirtyFour[i] = new Random().Next(-10, 10);
+    System.Console.Write(arrayThirtyFour[i] + " ");
+}
 
-//     }
-//     if(arrayThirtyFour[i]==0)
-//     {
-//         System.Console.Write(arrayThirtyFour[i]+" ");
-//     }
-// }
-// System.Console.WriteLine(" ");
+i = 0;
+System.Console.WriteLine(" ");
+for (i = 0; i < 10; i++)
+{
+    if (arrayThirtyFour[i] > 0)
+    {
+        System.Console.Write((arrayThirtyFour[i]) - (2 * arrayThirtyFour[i]) + " ");
+    }
+    if (arrayThirtyFour[i] < 0)
+    {
+        System.Console.Write(Math.Abs(arrayThirtyFour[i]) + " ");
+
+    }
+    if (arrayThirtyFour[i] == 0)
+    {
+        System.Console.Write(arrayThirtyFour[i] + " ");
+    }
+}
+System.Console.WriteLine(" ");
 
 
 // 35. Определить, присутствует ли в заданном массиве, некоторое число 
+System.Console.WriteLine("Задача 35: Определить, присутствует ли в заданном массиве, некоторое число");
+
+System.Console.WriteLine("(Не успела за группой на семинаре, были ошибки, доделывала самостоятельно)");
 
 //заполняем массив
-// int [] arrayThirtyFive= new int[10];
-// for (int i=0; i<10; i++)
-// {
-//     arrayThirtyFive[i]= new Random().Next(-10,10);
-//     System.Console.Write(arrayThirtyFive[i]+" ");
-// }
+int[] arrayThirtyFive = new int[10];
+for (int indexThirtyFive = 0; indexThirtyFive < 10; indexThirtyFive++)
+{
+    arrayThirtyFive[indexThirtyFive] = new Random().Next(-10, 10);
+    System.Console.Write(arrayThirtyFive[indexThirtyFive] + " ");
+}
 
-// //вводим и считываем число
-// System.Console.WriteLine(" ");
-// System.Console.WriteLine("Введите число");
-// int yourNumber = Convert.ToInt32(Console.ReadLine());
+//вводим и считываем число
+System.Console.WriteLine(" ");
+System.Console.WriteLine("Введите число");
+int yourNumber = Convert.ToInt32(Console.ReadLine());
 
-// //цикл для сравнения
-// int countCircles = 0;
+//цикл для сравнения
+int countCircles = 0;
 
-// for (int index35 =0; index35 <10; index35++)
-// {
-//     if(arrayThirtyFive[index35]==yourNumber)
-//     {
-//         System.Console.WriteLine("число есть");
-//         break;
-//     }
-//     else
-//     {
-//         countCircles = countCircles+1;
-//     if(countCircles == 9)
-//     {
-//             System.Console.WriteLine("числа нет в массиве");
-//     }
-//     }
-
-// }
+for (int index35 = 0; index35 < 10; index35++)
+{
+    if (arrayThirtyFive[index35] == yourNumber)
+    {
+        System.Console.WriteLine("число есть");
+        break;
+    }
+    else
+    {
+        countCircles = countCircles + 1;
+        if (countCircles == 9)
+        {
+            System.Console.WriteLine("числа нет в массиве");
+        }
+    }
+}
 
 //для решения методом "найти где-то", то есть ему скармливать массив, 
 // должен вернуть да/нет
@@ -102,33 +106,36 @@
 
 // 36. Задать массив, заполнить случайными положительными трёхзначными числами. 
 //Показать количество нечетных\четных чисел
-// int[] arrayThreeDigitsPositive = new int[15];
-// int i = 0;
-// int countPos = 0;
-// int countNeg = 0;
-// for (i = 0; i < 15; i++)
-// {
-//     arrayThreeDigitsPositive[i] = new Random().Next(0, 1000);
-//     System.Console.Write(" " + arrayThreeDigitsPositive[i] + " ");
-// }
-// System.Console.WriteLine(" ");
+System.Console.WriteLine("Задача 36: Задать массив, заполнить случайными положительными трёхзначными числами. ");
+System.Console.WriteLine("Показать количество нечетных/четных чисел");
+int[] arrayThreeDigitsPositive = new int[15];
+int i36 = 0;
+int countPos = 0;
+int countNeg = 0;
+for (i36 = 0; i36 < 15; i36++)
+{
+    arrayThreeDigitsPositive[i36] = new Random().Next(0, 1000);
+    System.Console.Write(" " + arrayThreeDigitsPositive[i36] + " ");
+}
+System.Console.WriteLine(" ");
 
-// for (i = 0; i < 15; i++)
-// {
-//     if (arrayThreeDigitsPositive[i] % 2 == 0)
-//     {
-//         countPos = countPos + 1;
-//     }
-//     else
-//     {
-//         countNeg = countNeg + 1;
-//     }
+for (i36 = 0; i36 < 15; i36++)
+{
+    if (arrayThreeDigitsPositive[i36] % 2 == 0)
+    {
+        countPos = countPos + 1;
+    }
+    else
+    {
+        countNeg = countNeg + 1;
+    }
 
-// }
-// System.Console.WriteLine("количество четных="+countPos);
-// System.Console.WriteLine("количество нечетных="+countNeg);
+}
+System.Console.WriteLine("количество четных=" + countPos);
+System.Console.WriteLine("количество нечетных=" + countNeg);
 
 // 37. В одномерном массиве из 123 чисел найти количество элементов из отрезка [10,99]
+// Решали на семинаре, добивала сама;
 // int[] array123 = new int[123];
 
 // for (int i = 0; i < 123; i++)
@@ -156,23 +163,24 @@
 
 
 // 38. Найти сумму чисел одномерного массива стоящих на нечетной позиции
-// int[] arrayForSumUnevenPosition = new int[10];
-// int i = 0;
-// for (i = 0; i < 10; i++)
-// {
-//     arrayForSumUnevenPosition[i] = new Random().Next(-100, 101);
-//     System.Console.Write(" "+arrayForSumUnevenPosition[i]+" ");
-// }
-// System.Console.WriteLine(" ");
-// int sumUnevenPosition=0;
-// for (i=0; i<10; i++)
-// {
-//     if ((i+1)%2!=0)
-//     {
-//     sumUnevenPosition = sumUnevenPosition+ arrayForSumUnevenPosition[i];
-//     }
-// }
-// System.Console.WriteLine("Сумма чисел стоящих на нечетной позиции="+sumUnevenPosition);
+System.Console.WriteLine("Задача 38: Найти сумму чисел одномерного массива стоящих на нечетной позиции");
+int[] arrayForSumUnevenPosition = new int[10];
+int i38 = 0;
+for (i38 = 0; i38 < 10; i38++)
+{
+    arrayForSumUnevenPosition[i38] = new Random().Next(-100, 101);
+    System.Console.Write(" " + arrayForSumUnevenPosition[i38] + " ");
+}
+System.Console.WriteLine(" ");
+int sumUnevenPosition = 0;
+for (i38 = 0; i38 < 10; i38++)
+{
+    if ((i38 + 1) % 2 != 0)
+    {
+        sumUnevenPosition = sumUnevenPosition + arrayForSumUnevenPosition[i38];
+    }
+}
+System.Console.WriteLine("Сумма чисел стоящих на нечетной позиции=" + sumUnevenPosition);
 
 // 39. Найти произведение пар чисел в одномерном массиве. 
 // // Парой считаем первый и последний элемент, второй и предпоследний и т.д.
