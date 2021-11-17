@@ -1,0 +1,6 @@
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.GlobalUsings.g.cs
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.csproj.AssemblyReference.cache
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.AssemblyInfoInputs.cache
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.AssemblyInfo.cs
+C:\Users\Ljubov\Desktop\HW1511\example1511\obj\Debug\net6.0\example1511.csproj.CoreCompileInputs.cache
